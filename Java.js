@@ -9,7 +9,6 @@ name = prompt("Enter your name");
 age = Number(prompt("Enter your age"));
 gender = prompt("Enter your gender");
 
-// Welcome Message
 if (gender == "male") {
     document.write("Welcome Mr. " + name + "<br>");
 }
